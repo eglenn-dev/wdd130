@@ -1,25 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/webp" href="./resources/images/profile.webp">
-    <title>All About Me</title>
-</head>
-<body>
+  <title>Ethan Glenn</title>
+  <link rel="icon" type="image/webp" href="./resources/images/profile.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e8e8e8;
+    }
 
-    <h1>About Me</h1>
-    <img alt="Image of me?" src="./resources/images/profile.webp" height="200" width="200">
-    <h2>Ethan Glenn</h2>
-    <p>Hello Everyone! I am 20 years old and am from Canada.</p>
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header {
+      background-color: #4a4a4a;
+      color: #cfcfcf;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 15px;
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      background-color: #5f6368;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    a.button:hover {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Ethan Glenn</h1>
+  </div>
+  <div class="container">
+    <h2>A bit about me</h2>
+    <img src="./resources/images/profile.webp" alt="a picture of me?" width="200" height="200">
+    <p>Hello Everyone! I am 20 years old, and am from Canada.</p>
     <p>I served in the Utah St. George Mission and loved it! Although it got a little hot there, for a Canadian.</p>
-    <p>I am a Computer Science Major in my second semester. I have worked with HTML before and have made my <br>own websites.
-        I am excited to learn more about all that in this class.
+    <p>I am a Computer Science Major in my second semester. I have worked with HTML before and have made my own
+      websites.
+      I am excited to learn more about all that in this class.
     </p>
     <p>I also love playing pickleball!</p>
-
+    <a href="https://eglenn.dev" class="button" target="_blank">Take a look at my main site</a>
+  </div>
 </body>
 
 </html>
