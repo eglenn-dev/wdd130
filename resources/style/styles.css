@@ -48,18 +48,19 @@ body {
 
   a.button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 15px;
-    font-size: 18px;
+    /* font-size: 18px; */
     text-decoration: none;
     color: white;
-    background-color: #5f6368;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* background-color: #bebebe; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     transition: all 0.3s ease;
     text-align: center;
   }
 
   a.button:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-    transform: translateY(-5px);
+    /* box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); */
+    transform: translateY(-1px);
+    color: #b0b0b0;
   }
