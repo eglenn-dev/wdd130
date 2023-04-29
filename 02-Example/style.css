@@ -1,0 +1,45 @@
+body {
+    background-color: #bababa;
+    margin: 0;
+}
+
+h1 {
+    background-color: #56639d;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 5px solid white;
+    color: #ffffff;
+}
+
+h2 {
+    background-color: orange;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 100px;
+    border-radius: 20px;
+    border: 5px solid white;
+    color: #ffffff;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.smaller {
+    font-size: 1.3em;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.center {
+    margin: 10px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+    color: black;
+}
