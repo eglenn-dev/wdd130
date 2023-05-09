@@ -17,11 +17,14 @@ header {
 h1 {
     margin: 0;
     font-size: 2em;
-    padding: 2%;
+    padding-top: 1%;
 }
 h2 {
     margin: 0;
     font: 4em;
+}
+.smaller {
+    font-size: 0.75em;
 }
 h3 {
     margin: 0;
@@ -38,6 +41,7 @@ h4 {
 .subheading {
     margin: 0;
     font: 2em;
+    padding: 1%;
     text-align: center;
 }
 .container {
