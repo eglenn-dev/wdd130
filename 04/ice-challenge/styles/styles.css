@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@600&family=Konkhmer+Sleokchher&display=swap');
+
+head {
+    font-family: 'Tinos', serif;
+}
+
+header {
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#fun-font {
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+h1:hover {
+    color: black;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+.centered {
+    text-align: center;
+}
+
+body {
+    background-color: #fca6c9;
+
+}
+
+p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+img {
+    max-width: 250px;
+}
+
+ol {
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 30%;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.quote {
+    font-family: 'Tinos', serif;
+}
+
+#text {
+    color: white;
+}
+
+footer {
+    line-height: 1;
+}
