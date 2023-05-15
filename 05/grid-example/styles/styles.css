@@ -1,0 +1,36 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    grid-column: 2/-1;
+    text-align: center;
+    font-size: 2em;
+    background-color: lightblue;
+}
+
+.body-section {
+    grid-column: 2/4;
+    text-align: center;
+    align-self: center;
+}
+
+footer {
+    grid-column: 1/-1;
+    text-align: center;
+    background-color: lightcoral;
+    align-self: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+img {
+    justify-self: center;
+    align-self: center;
+}
