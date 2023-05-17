@@ -17,7 +17,7 @@ main header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 600px;
+    min-height: 350px;
     grid-column: 1/-1;
     grid-row: 1/2;
 }
@@ -34,7 +34,7 @@ main header h1, h2 {
 main header h1 {
     color: #232122;
     font-size: 4em;
-    padding-top: 20%;
+    padding-top: 15%;
 }
 
 main header h2 {
