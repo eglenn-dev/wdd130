@@ -1,0 +1,39 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cherries {
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+
+.cherries img {
+    z-index: 1;
+    float: right top;
+    margin-top: -80px;
+}
+
+.box {
+    grid-column: 2/3;
+    background-color: #b9b8b9;
+    width: 50;
+    height: 700px;
+}
+h1 {
+    font-size: 14em;
+    text-align: right;
+    margin-top: -650px;
+    padding-right: 70px;
+    letter-spacing: 20px;
+}
+
+h2 {
+    font-size: 7em;
+    text-align: right;
+    padding-right: 100px;
+    color: #9c0e11;
+    letter-spacing: 22px;
+    margin-top: -40px;
+}
