@@ -22,7 +22,7 @@ main {
     height: 700px;
 }
 h1 {
-    font-size: 14em;
+    font-size: 12em;
     text-align: right;
     margin-top: -650px;
     padding-right: 70px;
@@ -32,7 +32,7 @@ h1 {
 h2 {
     font-size: 7em;
     text-align: right;
-    padding-right: 100px;
+    padding-right: 80px;
     color: #9c0e11;
     letter-spacing: 22px;
     margin-top: -40px;
