@@ -1,0 +1,28 @@
+body {
+    background-color: purple;
+}
+
+div #grid-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 871px) {
+    body {
+        background-color: orange;
+    }
+
+    div #grid-column {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 673px) {
+    body {
+        background-color: blue;
+    }
+
+    div #grid-column {
+        grid-template-columns: 1fr;
+    }
+}
