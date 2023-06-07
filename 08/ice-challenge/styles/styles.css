@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+#main-form {
+    grid-column: 2/3;
+    background-color: #ffffff;
+}
+
+
+#main-form h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+    color: #666666;
+    letter-spacing: 2px;
+}
+
+#main-form h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 2em;
+    color: #7e7b77;
+}
+
+#exit-icon {
+    text-align: right;
+    margin: 0 0 0 auto;
+    display: block;
+    max-width: 30px;
+    padding: 10px;
+}
+
+#background-image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(https://wdd130.eglenn.dev/08/ice-challenge/images/background-image.jpg);
+}
+
+#background-image img {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+}
+
+.text-box {
+    padding: 20px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: larger;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #a0a0a0;
+}
+
+#opt-in {
+    text-align: left;
+    font-size: larger;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #7e7b77;
+}
+
+#submit {
+    background-color: #e39968;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    font-size: 1.75em;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 20px 50px;
+}
