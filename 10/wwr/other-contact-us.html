@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/other-contact-us.css">
+    <link rel="icon" type="image/webp" href="./images/whale.webp">
+    <title>WWR | New Contact US</title>
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="#">Products & Services</a>
+                <a href="./site-plan-rafting.html">Site Plan</a>
+                <a href="./contact-us.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div id="contact-form-grid">
+                <div id="contact-form">
+                    <form action="/my-handling-form-page" method="post">
+                        <ul>
+                          <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                          </li>
+                          <li>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" />
+                          </li>
+                          <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                          </li>
+                          <li class="button">
+                            <button type="submit">Send your message</button>
+                          </li>                          
+                        </ul>
+                      </form>
+                </div>
+                <img id="contact-river-img" src="./images/contact-river.avif" alt="">
+                <div class="text-notice">
+                    <h1>We value your feedback!</h1>
+                    <p>We are always looking for ways to improve our products and services, and your feedback is
+                        essential to that process. Whether you have a suggestion, a complaint, or just want to share
+                        your thoughts, we want to hear from you.</p>
+                    <p>You can contact us by filling out the form on this page, sending us an email, or calling us. We
+                        will get back to you as soon as possible.</p>
+                    <p>Thank you for your feedback! It helps us make The Dry Oar the best it can be.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Dry Oar &copy; 2023 - Other Name</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('contact-form');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function (e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            // document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+
+</html>
