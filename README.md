@@ -1,4 +1,4 @@
-# wdd130 Ethan Glenn
+# Ethan Glenn - WDD130
 
 Preview the GitHub pages version of this project at [wdd130.eglenn.dev](https://wdd130.eglenn.dev).
 
